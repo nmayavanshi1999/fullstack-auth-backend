@@ -18,8 +18,7 @@ from django.contrib import admin
 from django.urls import path , include
 from rest_framework_simplejwt.views import TokenObtainPairView
 from drf_spectacular.views import SpectacularAPIView , SpectacularSwaggerView
-
-from server.accounts.views import SignupView
+from accounts.views import SignupView
 
 
 
